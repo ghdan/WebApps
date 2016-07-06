@@ -41,7 +41,7 @@
 	<jsp:include page="date.jsp" flush="true" />
 	<br>
 	<% response.getBufferSize(); %>
-
+	
 	<%-- Not here, not enough time to get all done --%>
 	<jsp:forward page="other.jsp" /> <%--  <%	pageContext.forward("other.jsp"); %>  --%>
 

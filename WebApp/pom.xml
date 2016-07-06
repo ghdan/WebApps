@@ -10,6 +10,14 @@
 	<dependencies>
 
 
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.2.1.Final</version>
+		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/org.glassfish.web/javax.servlet.jsp.jstl -->
 		<dependency>
 			<groupId>org.glassfish.web</groupId>
