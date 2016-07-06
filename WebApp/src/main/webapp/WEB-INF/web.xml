@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+	<!-- <servlet> <servlet-name>comingsoon</servlet-name> <servlet-class>mysite.server.ComingSoonServlet</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>comingsoon</servlet-name> <url-pattern>/*</url-pattern> 
+		</servlet-mapping> -->
+
+	<!-- exmaple @ http://docs.oracle.com/cd/E13222_01/wls/docs92/webapp/configureservlet.html -->
+
+
+	<!-- Servlet=HelloWorld/FirstServlet -->
+	<!-- http://localhost:8080/WebApp/HelloWorld -->
+	<servlet>
+		<servlet-name>HelloWorld</servlet-name>
+		<servlet-class>com.webapp.servlets.FirstServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>HelloWorld</servlet-name>
+		<url-pattern>/HelloWorld</url-pattern>
+	</servlet-mapping>
+
+	<!-- <display-name>FirstWebApp</display-name> -->
+
+	<!-- Servlet=GetEx/GetMethodExample -->
+	<!-- http://localhost:8080/WebApp/getex?first_name=ZARA&last_name=ALI -->
+	<servlet>
+		<servlet-name>GetExample</servlet-name>
+		<servlet-class>com.webapp.servlets.GetMethodExample</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GetExample</servlet-name>
+		<url-pattern>/getex</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- Servlet=GetExForm/GetMethodFormExample -->
+	<!-- http://localhost:8080/WebApp/getexform -->
+	<servlet>
+		<servlet-name>GetFormExample</servlet-name>
+		<servlet-class>com.webapp.servlets.GetMethodFormExample</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GetFormExample</servlet-name>
+		<url-pattern>/getexform</url-pattern>
+	</servlet-mapping>
+	
+	
+
+
+	<!-- Servlet=PostEx/PostMethodExample -->
+	<!-- http://localhost:8080/WebApp/postex?first_name=ZARA&last_name=ALI -->
+	<servlet>
+		<servlet-name>PostExample</servlet-name>
+		<servlet-class>com.webapp.servlets.PostMethodExample</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PostExample</servlet-name>
+		<url-pattern>/postex</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- Servlet=PostExForm/PostMethodFormExample -->
+	<!-- http://localhost:8080/WebApp/postexform -->
+	<servlet>
+		<servlet-name>PostFormExample</servlet-name>
+		<servlet-class>com.webapp.servlets.PostMethodFormExample</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PostFormExample</servlet-name>
+		<url-pattern>/postexform</url-pattern>
+	</servlet-mapping>
+	
+	
+
+
+
+
+
+
+
+
+</web-app>
